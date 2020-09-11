@@ -1,0 +1,99 @@
+.mainAnchor {
+    -fx-background-color: purple;
+
+}
+.resultAnchor {
+    -fx-background-color: gray;
+}
+.button {
+    -fx-cursor: hand;
+    -fx-font-size: 15;
+    -fx-background-color: gray;
+    -fx-text-fill: #5b0b72;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+}
+.button:hover {
+    -fx-font-size: 15;
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+}
+.startBtn {
+    -fx-font-weight: bold;
+}
+.startBtn:hover {
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+}
+.letsGoBtn {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+.letsGoBtn:hover {
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+}
+
+.exitBtn {
+    -fx-background-color: red;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+}
+.exitBtn:hover {
+    -fx-background-color: black;
+    -fx-text-fill: red;
+    -fx-font-size: 27;
+
+}
+.resultBtn {
+    -fx-font-size: 15;
+    -fx-background-color: gray;
+    -fx-text-fill: #5b0b72;
+    -fx-font-weight: bold;
+}
+.resultBtn:hover {
+    -fx-background-color: white;
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}
+.label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+#handoutLabel {
+    -fx-text-fill: blue;
+    -fx-font-weight: bold;
+}
+#resultLabel {
+    -fx-text-fill: yellow;
+}
+.pointP1 {
+    -fx-text-fill: blue;
+    -fx-font-weight: bold;
+}
+.pointP2 {
+    -fx-text-fill: red;
+     -fx-font-weight: bold;
+}
+.circleP1 {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 33;
+}
+.circleP2 {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 33;
+}
+.point {
+    -fx-text-fill: black;
+    -fx-font-size: 22;
+}
+.comboBox {
+    -fx-cursor: hand;
+    -fx-background-color: white;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+}

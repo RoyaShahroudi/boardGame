@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1100.0" styleClass="resultAnchor" stylesheets="@../stylesAndPics/styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boardGame.controllers.Result">
+    <children>
+        <Button fx:id="exitBtn" layoutX="480.0" layoutY="506.0" mnemonicParsing="false" onAction="#exitBtn" prefHeight="57.0" prefWidth="149.0" styleClass="exitBtn" text="EXIT">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Button>
+        <Label id="resultLabel" fx:id="resultLabel" alignment="CENTER" layoutX="383.0" layoutY="195.0" prefHeight="98.0" prefWidth="346.0">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Label>
+        <Circle fill="#1f34ff" layoutX="306.0" layoutY="244.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="#cd0707" layoutX="806.0" layoutY="244.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+        <Label fx:id="circleP1" alignment="CENTER" layoutX="263.0" layoutY="235.0" prefHeight="57.0" prefWidth="86.0" styleClass="circleP1" />
+        <Label fx:id="circleP2" alignment="CENTER" layoutX="763.0" layoutY="235.0" prefHeight="57.0" prefWidth="86.0" styleClass="circleP2" />
+        <Label fx:id="point1" alignment="CENTER" layoutX="267.0" layoutY="203.0" prefHeight="32.0" prefWidth="78.0" styleClass="point" text="Player1" />
+        <Label fx:id="point2" alignment="CENTER" layoutX="766.0" layoutY="203.0" prefHeight="32.0" prefWidth="86.0" styleClass="point" text="Player2" />
+    </children>
+</AnchorPane>

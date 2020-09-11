@@ -1,0 +1,18 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" styleClass="mainAnchor" stylesheets="@../stylesAndPics/styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boardGame.controllers.FirstPage">
+    <children>
+        <Button fx:id="letsGoBtn" layoutX="459.0" layoutY="518.0" mnemonicParsing="false" onAction="#letsGoBtn" prefHeight="50.0" prefWidth="182.0" styleClass="letsGoBtn" text="LET'S GO" textAlignment="CENTER" />
+        <ImageView fitHeight="470.0" fitWidth="875.0" layoutX="116.0" layoutY="24.0" opacity="0.9" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../stylesAndPics/gamePic.jpg" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

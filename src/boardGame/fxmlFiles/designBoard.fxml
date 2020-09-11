@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="mainAnchor" prefHeight="600" prefWidth="1100" styleClass="mainAnchor" stylesheets="@../stylesAndPics/styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boardGame.controllers.DesignBoard">
+    <children>
+        <HBox layoutX="85.0" layoutY="549.0" prefHeight="47.0" prefWidth="253.0">
+            <children>
+                <Label alignment="CENTER" prefHeight="33.0" prefWidth="88.0" text="Row" textAlignment="CENTER" textFill="#ac00bb">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Label>
+                <ComboBox fx:id="rowCombo" prefHeight="35.0" prefWidth="150.0" promptText="-" styleClass="comboBox" visibleRowCount="3" />
+            </children>
+        </HBox>
+        <HBox layoutX="376.0" layoutY="549.0" prefHeight="35.0" prefWidth="231.0">
+            <children>
+                <Label alignment="CENTER" prefHeight="34.0" prefWidth="90.0" text="Column" textAlignment="CENTER" textFill="#ac00bb">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Label>
+                <ComboBox fx:id="columnCombo" prefHeight="35.0" prefWidth="154.0" promptText="-" styleClass="comboBox" visibleRowCount="3" />
+            </children>
+        </HBox>
+        <AnchorPane fx:id="anchorDesignBoard" layoutX="10.0" layoutY="11.0" prefHeight="506.0" prefWidth="1079.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+        <Button fx:id="nextBtn" layoutX="900.0" layoutY="550.0" mnemonicParsing="false" onAction="#nextBtn" prefHeight="33.0" prefWidth="137.0" text="Next" textAlignment="CENTER" textFill="#9b00c2">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="showBtn" alignment="CENTER" layoutX="720.0" layoutY="550.0" mnemonicParsing="false" onAction="#showBtn" prefHeight="33.0" prefWidth="140.0" text="Show" textAlignment="CENTER" textFill="#9b00c2">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+    </children>
+
+</AnchorPane>
